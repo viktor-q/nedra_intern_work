@@ -8,10 +8,6 @@ import numpy as np
 def create_board(vertical, horizontal):
     board = np.zeros((vertical, horizontal), dtype=int)
     return board
-    # return np.array([[0, 0, 0, 0],
-    #                   [0, 0, 0, 0],
-    #                   [0, 0, 0, 0],
-    #                  [0, 0, 0, 0]])
 
 
 # Проверка пустых мест
